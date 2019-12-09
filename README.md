@@ -23,7 +23,7 @@ The setup script contained in the repository creates a simple setup of the appli
   2. Run the setup script in the repository with elevated privileges
   3. Create a virtual environment in tairsi/venv and install python requests in the virtualenv
   3. Modify the sample configuration in /etc/tairsi.yml and the /var/www/app/tairsi.wsgi configuration to suit your requirements
-  4. Test the application by polling your server at http(s)://yourserver/poll?key=dasdAGAERGARV32ECSAC&number=+447654321011&smscontent="bad things are happening" and monitor server logs for any errors **mod_wsgi** config has an IP whitelist in the configuration 
+  4. Test the application by polling your server at '''http(s)://yourserver/poll?key=dasdAGAERGARV32ECSAC&number=+447654321011&smscontent="bad things are happening"''' and monitor server logs for any errors **mod_wsgi** config has an IP whitelist in the configuration 
 
 ## Tairsi operation
 
@@ -49,5 +49,5 @@ There are a few things on the backlog
 
 ## Authors
 
-  * Conor O'Callaghan - @ivernus
-  * Glenn Ambler - @gambler2073 
+  * Conor O'Callaghan - [@ivernus](https://github.com/ivernus/)
+  * Glenn Ambler - [@gambler2073](https://github.com/gambler2073/)
