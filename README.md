@@ -40,12 +40,17 @@ The application runs in Apache HTTPD using mod_wsgi. A sample configuration file
 
 The code repository contains a simple Zabbix template which can be imported to a Zabbix server and applied to a host which has network connectivity to the API interface. 
 
+## CAUTIONS
+
+The use of the smscontent field is experimental. This places freeform text in the callerid field, which you can them make use of inside your dialplan for other puproses. This has the potential for code injection issues if not validated, use at your own risk !
+
 ## To Do
 
 There are a few things on the backlog
 
   * Test with HTTPS   
   * Test with nginx
+  * Find alternative methods for SMS
 
 ## Authors
 
